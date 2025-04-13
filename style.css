@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;  /* Dark background */
+  color: #f4f4f9;          /* Light text */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #f4f4f9;  /* White text */
+}
+
+#incident-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#incident-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #444;  /* Slightly lighter dark background for list items */
+  color: #f4f4f9;          /* White text */
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #5c6bc0;  /* Blue background for buttons */
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f51b5;  /* Darker blue when hovering */
+}
+
+.green-btn {
+  background-color: #4CAF50;
+}
+
+.green-btn:hover {
+  background-color: #45a049;
+}
+
+.clear-btn {
+  background-color: #f44336;
+}
+
+.clear-btn:hover {
+  background-color: #e53935;
+}
